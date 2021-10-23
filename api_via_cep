@@ -22,4 +22,8 @@ usei como exemplo o cep do museu de sao paulo masp o retorno foi este um TEXTO j
   "siafi": "7107"
 }
 
+inicindo o projeto no campo que vai receber o cep uso a tributo  onblur pra cionar uma função essa funçao sera responsavel por acionar a api.
+
+<input type="text" class="form-control" placeholder="CEP"   onblur="getDadosEnderecoPorCep(this.value)" />
+
 
