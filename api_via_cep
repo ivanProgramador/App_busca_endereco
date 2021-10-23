@@ -1,0 +1,25 @@
+Api via cep recebe um paramentro que serai a numeração do cep sem o ifem
+depois que ela e qrequisitada enviado o cp como parametro ela retona um json
+contendo os dados do endereço de cep
+
+                  o cep vai qui
+viacep.com.br/ws/   01310200      /json/unicode/
+
+
+usei como exemplo o cep do museu de sao paulo masp o retorno foi este um TEXTO json
+
+
+{
+  "cep": "01310-200",
+  "logradouro": "Avenida Paulista",
+  "complemento": "de 1512 a 2132 - lado par",
+  "bairro": "Bela Vista",
+  "localidade": "S\u00e3o Paulo",
+  "uf": "SP",
+  "ibge": "3550308",
+  "gia": "1004",
+  "ddd": "11",
+  "siafi": "7107"
+}
+
+
